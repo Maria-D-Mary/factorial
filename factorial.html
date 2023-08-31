@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+   
+    var number=parseInt(prompt('please enter a positive number'));
+    
+    if (number<0){
+        console.log("error:No negative nos");
+
+    } if(number==0){
+        console.log('the factorial of ${number} is 1.');
+
+    }if (number>0){
+        let fact=1;
+        for(i=1;i<=number;i++){
+            fact *=i;
+        }
+    console.log("the factorial of "+number+ "is" +fact);
+    }
+</script>
+</html>
